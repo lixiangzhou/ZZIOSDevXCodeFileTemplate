@@ -41,10 +41,10 @@ NSString *const ___FILEBASENAMEASIDENTIFIER___Identifier = @"___FILEBASENAMEASID
     
 }
 
-#pragma mark - Setter / Getter / Lazy
-
-
 #pragma mark - Action
+
+
+#pragma mark - Setter / Getter / Lazy
 
 
 #pragma mark - Helper

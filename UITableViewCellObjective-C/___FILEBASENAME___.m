@@ -46,10 +46,10 @@ const CGFloat ___FILEBASENAMEASIDENTIFIER___Height = 44;
     
 }
 
-#pragma mark - Setter / Getter / Lazy
-
-
 #pragma mark - Action
+
+
+#pragma mark - Setter / Getter / Lazy
 
 
 #pragma mark - Helper

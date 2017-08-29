@@ -23,25 +23,25 @@
     [self addObservers];
 }
 
-//- (void)viewWillAppear:(BOOL)animated {
-//    [super viewWillAppear:animated];
-//}
-//
-//-(void)viewDidAppear:(BOOL)animated {
-//    [super viewDidAppear:animated];
-//}
-//
-//-(void)viewWillDisappear:(BOOL)animated {
-//    [super viewWillDisappear:animated];
-//}
-//
-//- (void)viewDidDisappear:(BOOL)animated {
-//    [super viewDidDisappear:animated];
-//}
-//
-//- (void)dealloc {
-//    
-//}
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+}
+
+-(void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+}
+
+- (void)dealloc {
+    
+}
 
 #pragma mark - Observers
 
@@ -72,7 +72,7 @@
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
+    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"" forIndexPath:indexPath];
     
     // Configure the cell
     
@@ -87,11 +87,13 @@
 
 #pragma mark - Delegate External
 
-
-#pragma mark - Setter / Getter / Lazy
+#pragma mark - 
 
 
 #pragma mark - Action
+
+
+#pragma mark - Setter / Getter / Lazy
 
 
 #pragma mark - Helper
