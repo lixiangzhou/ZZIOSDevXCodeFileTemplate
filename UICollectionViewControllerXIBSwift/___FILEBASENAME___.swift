@@ -45,6 +45,31 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
     
 }
 
+
+// MARK: - Observers
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    fileprivate func addObservers() {
+        
+    }
+}
+
+// MARK: - UI
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    fileprivate func setUI() {
+        
+    }
+}
+
+// MARK: - Action
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    
+}
+
+// MARK: - Network
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    
+}
+
 // MARK: - Delegate Internal
 
 // MARK: - UICollectionViewDataSource
@@ -76,26 +101,6 @@ extension ___FILEBASENAMEASIDENTIFIER___ {
 // MARK: - Delegate External
 
 // MARK: -
-
-
-// MARK: - Observers
-extension ___FILEBASENAMEASIDENTIFIER___ {
-    fileprivate func addObservers() {
-        
-    }
-}
-
-// MARK: - UI
-extension ___FILEBASENAMEASIDENTIFIER___ {
-    fileprivate func setUI() {
-        
-    }
-}
-
-// MARK: - Action
-extension ___FILEBASENAMEASIDENTIFIER___ {
-    
-}
 
 // MARK: - Helper
 extension ___FILEBASENAMEASIDENTIFIER___ {

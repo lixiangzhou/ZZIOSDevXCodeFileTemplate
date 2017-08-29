@@ -55,13 +55,15 @@
     
 }
 
+#pragma mark - Action
+
+
 #pragma mark - Network
 
 
 #pragma mark - Delegate Internal
 
-#pragma mark UICollectionViewDataSource
-
+#pragma mark - UICollectionViewDataSource
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
     return 0;
 }
@@ -79,8 +81,7 @@
     return cell;
 }
 
-#pragma mark UICollectionViewDelegate
-
+#pragma mark - UICollectionViewDelegate
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     
 }
@@ -88,9 +89,6 @@
 #pragma mark - Delegate External
 
 #pragma mark - 
-
-
-#pragma mark - Action
 
 
 #pragma mark - Setter / Getter / Lazy

@@ -45,35 +45,6 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
     
 }
 
-// MARK: - Delegate Internal
-
-// MARK: - UITableViewDataSource
-extension ___FILEBASENAMEASIDENTIFIER___ {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "", for: indexPath)
-        
-        // Configure the cell
-        
-        return cell
-    }
-}
-
-// MARK: - UITableViewDelegate
-extension ___FILEBASENAMEASIDENTIFIER___ {
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-    }
-}
-
-// MARK: - Delegate External
-
-// MARK: -
-
-
 // MARK: - Observers
 extension ___FILEBASENAMEASIDENTIFIER___ {
     fileprivate func addObservers() {
@@ -92,6 +63,39 @@ extension ___FILEBASENAMEASIDENTIFIER___ {
 extension ___FILEBASENAMEASIDENTIFIER___ {
     
 }
+
+// MARK: - Network
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    
+}
+
+// MARK: - Delegate Internal
+
+// MARK: - UITableViewDataSource
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 0
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "", for: indexPath)
+        
+        // Configure the cell
+        
+        return cell
+    }
+}
+
+// MARK: - UITableViewDelegate
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
+}
+
+// MARK: - Delegate External
+
+// MARK: -
 
 // MARK: - Helper
 extension ___FILEBASENAMEASIDENTIFIER___ {

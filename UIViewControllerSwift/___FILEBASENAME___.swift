@@ -45,15 +45,6 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
     
 }
 
-// MARK: - Delegate Internal
-
-// MARK: -
-
-// MARK: - Delegate External
-
-// MARK: -
-
-
 // MARK: - Observers
 extension ___FILEBASENAMEASIDENTIFIER___ {
     fileprivate func addObservers() {
@@ -72,6 +63,19 @@ extension ___FILEBASENAMEASIDENTIFIER___ {
 extension ___FILEBASENAMEASIDENTIFIER___ {
     
 }
+
+// MARK: - Network
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    
+}
+
+// MARK: - Delegate Internal
+
+// MARK: -
+
+// MARK: - Delegate External
+
+// MARK: -
 
 // MARK: - Helper
 extension ___FILEBASENAMEASIDENTIFIER___ {

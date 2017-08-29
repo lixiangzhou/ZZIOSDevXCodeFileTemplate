@@ -55,13 +55,15 @@
     
 }
 
+#pragma mark - Action
+
+
 #pragma mark - Network
 
 
 #pragma mark - Delegate Internal
 
 #pragma mark - UITableViewDataSource
-
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 0;
 }
@@ -79,7 +81,6 @@
 }
 
 #pragma mark - UITableViewDelegate
-
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
 }
@@ -87,9 +88,6 @@
 #pragma mark - Delegate External
 
 #pragma mark - 
-
-
-#pragma mark - Action
 
 
 #pragma mark - Setter / Getter / Lazy
