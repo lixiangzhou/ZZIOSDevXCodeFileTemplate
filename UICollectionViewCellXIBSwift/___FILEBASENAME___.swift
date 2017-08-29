@@ -9,10 +9,58 @@
 import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
-
+    
+    // MARK: - Life Cycle
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        setUI()
+        addObservers()
     }
-
+    
+    deinit {
+        
+    }
+    
+    // MARK: - Public Property
+    static let identifier = "___FILEBASENAMEASIDENTIFIER___Identifier"
+    
+    // MARK: - Private Property
+    
 }
+
+// MARK: - Observers
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    fileprivate func addObservers() {
+        
+    }
+}
+
+// MARK: - UI
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    fileprivate func setUI() {
+        
+    }
+}
+
+// MARK: - Action
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    
+}
+
+// MARK: - Helper
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    
+}
+
+// MARK: - Other
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    
+}
+
+// MARK: - Public
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    
+}
+

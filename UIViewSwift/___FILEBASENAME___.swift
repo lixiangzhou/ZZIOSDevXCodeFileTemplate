@@ -1,4 +1,4 @@
-//
+ //
 //  ___FILENAME___
 //  ___PROJECTNAME___
 //
@@ -9,13 +9,60 @@
 import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    
+    // MARK: - Life Cycle
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        
+        setUI()
+        addObservers()
     }
-    */
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    deinit {
+        
+    }
 
+    // MARK: - Public Property
+    
+    // MARK: - Private Property
+    
+}
+
+// MARK: - Observers
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    fileprivate func addObservers() {
+        
+    }
+}
+
+// MARK: - UI
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    fileprivate func setUI() {
+        
+    }
+}
+
+// MARK: - Action
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    
+}
+
+// MARK: - Helper
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    
+}
+
+// MARK: - Other
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    
+}
+
+// MARK: - Public
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    
 }
