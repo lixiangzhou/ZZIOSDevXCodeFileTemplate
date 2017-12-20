@@ -22,19 +22,8 @@ NSString *const ___FILEBASENAMEASIDENTIFIER___Identifier = @"___FILEBASENAMEASID
     self = [super initWithFrame:frame];
     if (self) {
         [self setUI];
-        [self addObservers];
     }
     return self;
-}
-
-- (void)dealloc {
-    
-}
-
-#pragma mark - Observers
-
-- (void)addObservers {
-    
 }
 
 #pragma mark - UI 

@@ -25,19 +25,8 @@ const CGFloat ___FILEBASENAMEASIDENTIFIER___Height = 44;
         self.selectionStyle = UITableViewCellSelectionStyleNone;
         
         [self setUI];
-        [self addObservers];
     }
     return self;
-}
-
-- (void)dealloc {
-    
-}
-
-#pragma mark - Observers
-
-- (void)addObservers {
-    
 }
 
 #pragma mark - UI

@@ -20,19 +20,8 @@
     self = [super initWithFrame:frame];
     if (self) {
         [self setUI];
-        [self addObservers];
     }
     return self;
-}
-
-- (void)dealloc {
-    
-}
-
-#pragma mark - Observers
-
-- (void)addObservers {
-    
 }
 
 #pragma mark - UI

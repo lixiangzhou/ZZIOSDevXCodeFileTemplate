@@ -21,17 +21,6 @@ NSString *const ___FILEBASENAMEASIDENTIFIER___Identifier = @"___FILEBASENAMEASID
     [super awakeFromNib];
     
     [self setUI];
-    [self addObservers];
-}
-
-- (void)dealloc {
-    
-}
-
-#pragma mark - Observers
-
-- (void)addObservers {
-    
 }
 
 #pragma mark - UI

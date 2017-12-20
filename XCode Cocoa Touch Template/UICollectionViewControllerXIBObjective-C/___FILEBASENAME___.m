@@ -19,34 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self setUI];
-    [self addObservers];
-}
-
-//- (void)viewWillAppear:(BOOL)animated {
-//    [super viewWillAppear:animated];
-//}
-//
-//-(void)viewDidAppear:(BOOL)animated {
-//    [super viewDidAppear:animated];
-//}
-//
-//-(void)viewWillDisappear:(BOOL)animated {
-//    [super viewWillDisappear:animated];
-//}
-//
-//- (void)viewDidDisappear:(BOOL)animated {
-//    [super viewDidDisappear:animated];
-//}
-//
-//- (void)dealloc {
-//    
-//}
-
-#pragma mark - Observers
-
-- (void)addObservers {
-    
+    [self setUI];   
 }
 
 #pragma mark - UI

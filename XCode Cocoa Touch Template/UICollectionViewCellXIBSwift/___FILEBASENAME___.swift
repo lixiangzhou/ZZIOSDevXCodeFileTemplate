@@ -16,11 +16,6 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
         super.awakeFromNib()
         
         setUI()
-        addObservers()
-    }
-    
-    deinit {
-        
     }
     
     // MARK: - Public Property
@@ -28,13 +23,6 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
     
     // MARK: - Private Property
     
-}
-
-// MARK: - Observers
-extension ___FILEBASENAMEASIDENTIFIER___ {
-    fileprivate func addObservers() {
-        
-    }
 }
 
 // MARK: - UI

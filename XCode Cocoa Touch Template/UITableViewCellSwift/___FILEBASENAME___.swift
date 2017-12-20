@@ -16,15 +16,10 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
         setUI()
-        addObservers()
     }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
-    }
-    
-    deinit {
-        
     }
     
     // MARK: - Public Property
@@ -33,13 +28,6 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
     
     // MARK: - Private Property
     
-}
-
-// MARK: - Observers
-extension ___FILEBASENAMEASIDENTIFIER___ {
-    fileprivate func addObservers() {
-        
-    }
 }
 
 // MARK: - UI
