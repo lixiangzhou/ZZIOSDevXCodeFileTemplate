@@ -3,7 +3,7 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-//___COPYRIGHT___
+//  ___COPYRIGHT___
 //
 
 import UIKit
@@ -32,7 +32,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
 
 // MARK: - UI
 extension ___FILEBASENAMEASIDENTIFIER___ {
-    fileprivate func setUI() {
+    private func setUI() {
         
     }
 }
